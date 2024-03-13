@@ -1,0 +1,46 @@
+.UserData{
+    display: flex;
+    margin-left: 13%;
+    margin-top: 20px;
+    gap: 30px;
+}
+.divMacro{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+}
+
+.divMacro .macro{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    flex-direction: row;
+    color: #282D30;
+    padding: 15px 90px 15px 30px ;
+    border-radius: 5px;
+    background-color: #FBFBFB;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.02);
+}
+.macroTxt{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.macroTxt span{
+    color: #74798C;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.macro img { 
+    width: 80px;
+}
