@@ -44,3 +44,35 @@
 .macro img { 
     width: 80px;
 }
+
+
+@media screen  and (max-width: 1410px) {
+
+    .macro img { 
+        width: 65px;
+    }
+    .macroTxt span{
+
+        font-size: 15px;
+
+    }
+    .macroTxt{
+        font-size: 18px;
+
+    }
+
+
+    
+    .divMacro .macro{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        flex-direction: row;
+        color: #282D30;
+        padding: 15px 40px 15px 30px ;
+        border-radius: 5px;
+        background-color: #FBFBFB;
+        border-radius: 5px;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.02);
+    }
+ }

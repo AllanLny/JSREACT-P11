@@ -91,7 +91,7 @@ const ChartUser = () => {
         <div  className='BarChart'> 
         <p className='TxtBarChart'>Activité quotidienne</p>
         <p className='TxtBarChart2'>⚫Poids (kg) 🔴 Calories brûlées (kCal)</p>
-        <BarChart
+        <BarChart className='BarCharts'
       width={840}
       height={350}
       data={userData?.activity?.sessions || []}
@@ -102,7 +102,7 @@ const ChartUser = () => {
         bottom: 5
       }}
     >
-      <CartesianGrid strokeDasharray="05 10" />
+      <CartesianGrid strokeDasharray="05 10"  className='Botcharts'/>
       <XAxis dataKey="day" />
       <YAxis/>
       <Tooltip content={<CustomTooltipRed />}/>
@@ -116,7 +116,7 @@ const ChartUser = () => {
         <div className='LineChart'>
       <p className='TxtLineChart'>Durée moyenne
     des  <br/>sessions</p>
-      <LineChart
+      <LineChart className='Botcharts'
         width={260}
         height={260}
         data={userData?.averageSessions?.sessions || []}
@@ -138,7 +138,7 @@ const ChartUser = () => {
       </LineChart>
       </div>
       <div className='ChartGraph'>
-      <RadarChart outerRadius={90} width={260} height={260} data={userData?.performance?.data|| []}>
+      <RadarChart className='Botcharts' outerRadius={90} width={260} height={260} data={userData?.performance?.data|| []}>
           <PolarGrid />
           <PolarAngleAxis dataKey="kind" tickFormatter={mapKindToLabel}/>
           <PolarRadiusAxis angle={30} domain={[0, 150]} />
@@ -147,7 +147,7 @@ const ChartUser = () => {
       </div>
       <div className='RadialGraph'>
       <p className='TxtPieChart'> <span> {score}% </span>  <br/>de votre objectif</p>
-      <PieChart width={260} height={260} >
+      <PieChart className='Botcharts' width={260} height={260} >
         <Pie
           data={data}
           cx={130}

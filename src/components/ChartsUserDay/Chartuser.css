@@ -82,7 +82,7 @@ opacity: 0.504
     color: #20253A;
     position: absolute;
     top: 10px;
-    left: 100px;
+    left: 50px;
     font-family: Roboto;
     font-size: 19px;
     font-style: normal;
@@ -98,7 +98,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px;
 position: absolute;
-right: 50px;
+right: 250px;
 z-index: 99;
 }
 .BarChart{
@@ -140,3 +140,62 @@ font-weight: 500;
     font-weight: 500;
     line-height: 24px
 }
+
+
+
+@media screen  and (max-width: 1410px) {
+
+    .ChartsBottom{
+        gap: 15px;
+        margin-left: 30px;
+    }
+    .ChartsTop{
+        margin-left: 30px;
+    }
+
+
+.BarCharts{
+    width: 550px!important;
+
+}
+
+    .recharts-wrapper.Botcharts{
+        width: 170px!important; 
+        height: 170px !important;  
+}
+
+.TxtBarChart{
+    top: 50px;
+    left: 80px;
+}
+.TxtBarChart2{
+
+right: 20px;
+top: 50px;
+}
+.TxtLineChart{
+    font-size: 14px;
+}
+.TxtPieChart  span{
+    color: #282D30;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+.TxtPieChart {
+    display: flex;
+    padding: 30px 25px 30px 25px;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    top: 23px;
+    right: 19px;
+    color: #74798C;
+    background-color: white;
+    border-radius: 25%;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+}
+ }
