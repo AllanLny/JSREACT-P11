@@ -1,0 +1,201 @@
+.ChartsBottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+}
+.LineChart{
+    position: relative;
+}
+.LineChart .recharts-surface{ 
+    border-radius: 5px;
+    background: #F00;
+}
+
+.ChartGraph .recharts-surface{ 
+    border-radius: 5px;
+    background: #282D30;
+}
+
+.BarChart .recharts-surface{ 
+    border-radius: 5px;
+    background: #FBFBFB;
+    
+}
+.RadialGraph { 
+    position: relative;
+    background-color: #FBFBFB;
+}
+
+.custom-tooltip{ 
+    background-color: #FFF;
+    color: #000;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.custom-tooltipRed{
+    background-color: #F00;
+    color:white ;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.recharts-cartesian-axis-ticks{
+    color: #FFF;
+font-family: Roboto;
+font-size: 19px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+}
+.recharts-cartesian-axis-line{
+    color: #FFF;
+
+}
+
+.TxtLineChart{
+    color: #FFF;
+
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+position: absolute;
+top: 0px;
+left: 15px;
+z-index: 99;
+opacity: 0.504
+}
+
+.TxtBarChart{
+    color: #20253A;
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    z-index: 99;
+}
+.TxtBarChart2{
+    color: #74798C;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+position: absolute;
+right: 250px;
+z-index: 99;
+}
+.BarChart{
+    position: relative;
+}
+
+.TxtPieChart {
+    display: flex;
+    padding: 30px 25px 30px 25px;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    color: #74798C;
+    background-color: white;
+    border-radius: 25%;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+}
+.TxtPieChart  span{
+    color: #282D30;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+.ChartsBottom{
+    margin-top: 30PX;
+}
+
+.ChartGraph tspan {
+    text-align: right;
+    font-family: Roboto;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px
+}
+
+
+
+@media screen  and (max-width: 1410px) {
+
+    .ChartsBottom{
+        gap: 15px;
+        margin-left: 30px;
+    }
+    .ChartsTop{
+        margin-left: 30px;
+    }
+
+
+.BarCharts{
+    width: 550px!important;
+
+}
+
+    .recharts-wrapper.Botcharts{
+        width: 170px!important; 
+        height: 170px !important;  
+}
+
+.TxtBarChart{
+    top: 50px;
+    left: 80px;
+}
+.TxtBarChart2{
+
+right: 20px;
+top: 50px;
+}
+.TxtLineChart{
+    font-size: 14px;
+}
+.TxtPieChart  span{
+    color: #282D30;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+.TxtPieChart {
+    display: flex;
+    padding: 30px 25px 30px 25px;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    top: 23px;
+    right: 19px;
+    color: #74798C;
+    background-color: white;
+    border-radius: 25%;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+}
+ }
